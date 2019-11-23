@@ -15,7 +15,7 @@
                 </md-card-header>
 
                 <md-card-content>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non.
+                    hi
                 </md-card-content>
 
             </md-ripple>
@@ -39,15 +39,15 @@
 
   .md-card {
     width: 900px;
-    height: 300px;
+    height: 370px;
     margin: 10px;
     margin-left: auto;
     display: block;
     vertical-align: center;
   }
   .picture {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 370px;
     margin: 10px;
     vertical-align: top;
   }
