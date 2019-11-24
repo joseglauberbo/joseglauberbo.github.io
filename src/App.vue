@@ -1,22 +1,14 @@
 <template>
-  <div id="app">
-    <Toolbar/>
-    <Card/>
-  </div>
+    <div id="app">
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
-
-import Toolbar from './components/Toolbar.vue'
-import Card from './components/Card.vue'
-
-
-export default {
-  name: 'app',
-  components: {
-    Toolbar,
-    Card,
-  }
-}
+    export default {
+        name: 'app'
+    }
 </script>
 
+<style>
+</style>

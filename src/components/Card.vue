@@ -10,12 +10,16 @@
           <md-card md-with-hover>
             <md-ripple>
                 <md-card-header>
-                 <div class="md-title">Accent color</div>
-                <div class="md-subhead">With hover and ripple effects</div>
+                 <div class="md-title">About me</div>
+                <div class="md-subhead">This is my portfolio</div>
                 </md-card-header>
 
                 <md-card-content>
-                    hi
+                    Hi, my name is José Glauber. I'm twenty-two years old and i'm computer scientist
+                    graduated by Federal University of Campina Grande. There are a lot of things that
+                    i like to do, like read, sing, listen to music, meet people and code. I'm very
+                    curious about frontend development and design code.
+
                 </md-card-content>
 
             </md-ripple>
