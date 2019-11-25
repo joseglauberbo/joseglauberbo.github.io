@@ -1,8 +1,23 @@
 <template>
+  <body>
   <div >
     <Toolbar/>
   </div>
+  </body>
 </template>
+
+
+<style lang="scss" scoped>
+  body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  }
+  body {
+  background-color: #F5F2B8;
+  }
+</style>
 
 <script>
 
@@ -14,3 +29,5 @@ export default {
     Toolbar,
   }
 }
+
+</script>

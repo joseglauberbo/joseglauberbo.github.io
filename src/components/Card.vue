@@ -48,6 +48,7 @@
     margin-left: auto;
     display: block;
     vertical-align: center;
+    background-color: #F9DAD0;
   }
   .picture {
     width: 350px;

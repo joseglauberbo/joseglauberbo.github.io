@@ -14,6 +14,11 @@
   .md-toolbar + .md-toolbar {
     margin-top: 16px;
   }
+  .md-accent {
+    background-color: #F9DAD0;
+  }
+
+
 </style>
 
 <script>
