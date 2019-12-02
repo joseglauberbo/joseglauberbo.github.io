@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../components/Home.vue'
-import Contact from '../components/Contact.vue'
+import Contacts from '../components/Contacts.vue'
 import Skills from '../components/Skills.vue'
 import Projects from '../components/Projects.vue'
 
@@ -16,9 +16,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/contact',
-      name: 'Contact',
-      component: Contact
+      path: '/contacts',
+      name: 'Contacts',
+      component: Contacts
     },
     {
         path: '/skills',

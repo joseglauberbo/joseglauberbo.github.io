@@ -1,12 +1,15 @@
 <template>
 <body>
-  <div>
-    <Toolbar/>
-  </div>
+  <div class="button">
+      <Button/>
+    </div>
   </body>
 </template>
 
 <style lang="scss" scoped>
+  .button {
+    transform: translate(30%, 50%);
+  }
   body {
   padding: 0;
   margin: 0;
@@ -14,17 +17,18 @@
   min-height: 100vh;
   }
   body {
-  background-color: #F5F2B8;
+  background-color: #FFB6C1;
   }
 </style>
 
 <script>
-import Toolbar from './Toolbar.vue'
+
+import Button from './Button.vue'
 
 export default {
-  name: 'contact',
+  name: 'contacts',
   components: {
-    Toolbar,
+    Button,
   }
 }
 </script>

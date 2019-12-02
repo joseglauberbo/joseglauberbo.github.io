@@ -1,31 +1,17 @@
 <template>
-  <div>
-      <div class="md-layout">
-        <div class="md-layout-item" >
-          <md-avatar class="picture" >
-          <img src="../assets/examples/joseglauber.png" alt="Avatar">
-          </md-avatar>
-        </div>
-        <div class="md-layout-item">
-          <md-card md-with-hover>
-            <md-ripple>
-                <md-card-header>
-                 <div class="md-title">About me</div>
-                <div class="md-subhead">This is my portfolio</div>
-                </md-card-header>
-
-                <md-card-content>
-                    Hi, my name is José Glauber. I'm twenty-two years old and i'm computer scientist
+  
+  <div class="card">
+    <div class="picture">
+     <img src="../assets/examples/joseglauber.png" alt="Avatar" style="width:100%" class="picture">
+    </div>
+    <div>
+      <p class="text"> Hi, my name is José Glauber. I'm twenty-two years old and i'm computer scientist
                     graduated by Federal University of Campina Grande. There are a lot of things that
                     i like to do, like read, sing, listen to music, meet people and code. I'm very
-                    curious about frontend development and design code.
+                    curious about frontend development and design code. 
+      </p>
+    </div>
 
-                </md-card-content>
-
-            </md-ripple>
-        </md-card>
-        </div>
-      </div>
   </div>
 </template>
 
@@ -37,49 +23,45 @@
 
 <style lang="scss" scoped>
 
-  @import "~vue-material/dist/theme/engine";
-  @import "~vue-material/dist/base/theme";
-  @import "~vue-material/dist/components/MdCard/theme";
 
-  .md-card {
-    width: 900px;
-    height: 370px;
-    margin: 10px;
-    margin-left: auto;
-    display: block;
-    vertical-align: center;
-    background-color: #F9DAD0;
-  }
-  .picture {
-    width: 350px;
-    height: 370px;
-    margin: 10px;
-    vertical-align: top;
-  }
+.picture {
+  width: 350px;
+  height: 365px;
+  border-radius: 20px;
+  transform: translate(2%, 1%);
+} 
 
-  .md-layout-item {
-    height: 72px;
+.card {
+  padding: 20px 10px;
+  width: 850px;
+  margin: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transform: translate(-20%,-70%);
+  border-radius: 8px;
+  columns: 40px 2;
+  -webkit-column-count: 2;
+  background-color: #FFC0CB;
+}
 
-    &:after {
-      width: 100%;
-      height: 100%;
-      display: block;
-      content: " ";
-    }
+.container {
+  padding: 2px 16px;
+}
 
-    &.md-layout {
-      &:after {
-        transform: translateY(-100%);
-        background: md-get-palette-color(yellow, 200);
-      }
+.text {
+  text-align: justify;
+  text-indent: 50px;
+  color: #2F4F4F;
+  transform: translate(-8%,25%);
+  text-shadow: 3px 2px #BDB76B;
+  font-family: monaco;
+  font-style: oblique;
+  font-size: 25px;
+  line-height: 1.2;
+}
 
-      .md-layout-item:after {
-        height: 40px;
-        margin-top: 16px;
-        position: relative;
-        z-index: 1;
-        background: md-get-palette-color(pink, 200);
-      }
-    }
-  }
 </style>
+
+Hi, my name is José Glauber. I'm twenty-two years old and i'm computer scientist
+                    graduated by Federal University of Campina Grande. There are a lot of things that
+                    i like to do, like read, sing, listen to music, meet people and code. I'm very
+                    curious about frontend development and design code.
