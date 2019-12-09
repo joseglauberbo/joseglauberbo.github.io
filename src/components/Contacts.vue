@@ -28,7 +28,7 @@ import Button from './Button.vue'
 export default {
   name: 'contacts',
   components: {
-    Button,
+    Button
   }
 }
 </script>

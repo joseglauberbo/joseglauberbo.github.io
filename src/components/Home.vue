@@ -1,25 +1,18 @@
 
 <template>
 <body>
-  <div id="app">
     <div class="button">
       <Button/>
     </div>
     <Card/>
-  </div>
   </body>
 </template>
 
 
-<style lang="scss" scoped>
-  
+<style>
+
   .button {
     transform: translate(30%, 50%);
-  }
-  .border {
-    border-width:8px;  
-    border-bottom-style:dotted;
-    transform: translate(-200%, 5%);
   }
   body {
   padding: 0;
@@ -45,4 +38,3 @@ export default {
   }
 }
 </script>
-

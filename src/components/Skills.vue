@@ -4,6 +4,7 @@
     <div class="button">
       <Button/>
     </div>
+    <CardSkills/>
   </div>
   </body>
 </template>
@@ -26,11 +27,13 @@
 <script>
 
 import Button from './Button.vue'
+import CardSkills from './CardSkills.vue'
 
 export default {
   name: 'skills',
   components: {
-    Button
+    Button,
+    CardSkills
   }
 }
 
