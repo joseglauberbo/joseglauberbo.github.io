@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="projects">
     <div class="button">
       <Button/>
     </div>
@@ -11,7 +11,7 @@
   .button {
     transform: translate(30%, 50%);
   }
-  body {
+  .projects {
   padding: 0;
   margin: 0;
   width: 100%;

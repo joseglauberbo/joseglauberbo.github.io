@@ -19,7 +19,7 @@
   
   .text-button {
     color: #FFD700;
-    text-shadow: 3px 2px #696969;
+    text-shadow: 2px 1px #696969;
     font-family: 'Indie Flower', cursive;
     font-style: oblique;
     font-size: 20px;

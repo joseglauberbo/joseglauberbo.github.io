@@ -42,7 +42,7 @@
   text-indent: 50px;
   color:  #FFD700;
   transform: translate(-15%,18%);
-  text-shadow: 3px 2px #696969;
+  text-shadow: 2px 1px #696969;
   font-family: 'Indie Flower', cursive;
   font-style: oblique;
   font-size: 28px;

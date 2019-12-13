@@ -56,7 +56,7 @@
 }
 
 .pictureContacts {
-  width: 210px;
+  width: 150px;
   border-radius: 8px;
 }
 
@@ -77,7 +77,7 @@
   text-indent: 50px;
   color:  #FFD700;
   transform: translate(7%,-230%);
-  text-shadow: 3px 2px #696969;
+  text-shadow: 2px 1px #696969;
   font-family: 'Indie Flower', cursive;
   font-style: oblique;
   font-size: 20px;
@@ -88,8 +88,8 @@
   text-align: justify;
   text-indent: 50px;
   color:  #FFD700;
-  transform: translate(10%, -400%);
-  text-shadow: 3px 2px #696969;
+  transform: translate(10%, -380%);
+  text-shadow: 2px 1px #696969;
   font-family: 'Indie Flower', cursive;
   font-style: oblique;
   font-size: 25px;
