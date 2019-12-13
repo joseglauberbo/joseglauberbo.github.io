@@ -7,12 +7,10 @@
 <script>
 export default {
     name: 'Picture',
-
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style>
 .picture {
   width: 350px;
   height: 365px;
@@ -20,4 +18,3 @@ export default {
   transform: translate(2%, 1%);
 } 
 </style>
-

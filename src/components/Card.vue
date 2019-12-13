@@ -1,10 +1,10 @@
 <template>
-
   <div class="card">
-    <div class="picture">
-     <img src="../assets/examples/joseglauber.png" alt="Avatar" class="picture">
+    <div>
+     <img src="../assets/examples/glauber2.png" alt="Avatar" class="picture">
     </div>
     <div class="text">
+      <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
       <p> Hi, my name is José Glauber. I'm twenty-two years old and i'm computer scientist
                     graduated by Federal University of Campina Grande. There are a lot of things that
                     i like to do, like read, sing, listen to music, meet people and code. I'm very
@@ -20,36 +20,32 @@
   }
 </script>
 
-
 <style>
 
 .picture {
-  width: 350px;
-  height: 365px;
+  width: 300px;
   border-radius: 20px;
-  transform: translate(2%, 1%);
+  transform: translate(8%, 1%);
 } 
-
 .card {
   padding: 20px 10px;
   width: 850px;
   margin: 350px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transform: translate(-20%,-70%);
+  box-shadow: 3px 2px #696969;
+  transform: translate(-20%,-65%);
   border-radius: 8px;
   columns: 2;
-  background-color: #FFC0CB;
+  background-color: #1C1C1C;
 }
-
 .text {
   text-align: justify;
   text-indent: 50px;
-  color: #2F4F4F;
-  transform: translate(-8%,25%);
-  text-shadow: 3px 2px #A4A4A4;
-  font-family: monaco;
+  color:  #FFD700;
+  transform: translate(-15%,18%);
+  text-shadow: 3px 2px #696969;
+  font-family: 'Indie Flower', cursive;
   font-style: oblique;
-  font-size: 25px;
+  font-size: 28px;
   line-height: 1.2;
 }
 

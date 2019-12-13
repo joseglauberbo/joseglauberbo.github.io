@@ -1,12 +1,14 @@
 <template>
-<body>
-  <div class="button">
+  <div>
+    <div class="button">
       <Button/>
     </div>
-  </body>
+    <CardContacts/>
+    </div>
 </template>
 
-<style lang="scss" scoped>
+<style>
+
   .button {
     transform: translate(30%, 50%);
   }
@@ -15,20 +17,20 @@
   margin: 0;
   width: 100%;
   min-height: 100vh;
-  }
-  body {
-  background-color: #FFB6C1;
+  background-color: #1C1C1C;
   }
 </style>
 
 <script>
 
 import Button from './Button.vue'
+import CardContacts from './CardContacts.vue'
 
 export default {
   name: 'contacts',
   components: {
-    Button
+    Button,
+    CardContacts
   }
 }
 </script>

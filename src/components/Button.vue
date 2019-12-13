@@ -1,5 +1,6 @@
 <template>
      <div class="border">
+     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
       <router-link to="/"><md-button class="text-button">About</md-button></router-link>
       <router-link to="/skills"><md-button class="text-button"> Skills</md-button></router-link>
       <router-link to="/projects"><md-button class="text-button"> Projects</md-button></router-link>
@@ -17,9 +18,9 @@
   }
   
   .text-button {
-    color: #2F4F4F;
-    text-shadow: 3px 2px #A4A4A4;
-    font-family: monaco;
+    color: #FFD700;
+    text-shadow: 3px 2px #696969;
+    font-family: 'Indie Flower', cursive;
     font-style: oblique;
     font-size: 20px;
   }

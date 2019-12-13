@@ -1,15 +1,13 @@
 <template>
-  <body>
-  <div >
+  <div>
     <div class="button">
       <Button/>
     </div>
   </div>
-  </body>
 </template>
 
 
-<style lang="scss" scoped>
+<style>
   .button {
     transform: translate(30%, 50%);
   }
@@ -18,21 +16,16 @@
   margin: 0;
   width: 100%;
   min-height: 100vh;
-  }
-  body {
-  background-color: #FFB6C1;
+  background-color: #1C1C1C;
   }
 </style>
 
 <script>
-
 import Button from './Button.vue'
-
 export default {
   name: 'projects',
   components: {
     Button,
   }
 }
-
 </script>
