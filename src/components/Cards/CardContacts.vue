@@ -100,5 +100,7 @@
 </style>
 
 <script>
-
+  export default {
+    name: 'CardContacts'
+  }
 </script>

@@ -3,6 +3,7 @@
     <div class="button">
       <Button/>
     </div>
+    <CardProjects/>
   </div>
 </template>
 
@@ -22,11 +23,13 @@
 
 <script>
 import Button from '../Button.vue'
+import CardProjects from '../Cards/CardProjects.vue'
 
 export default {
   name: 'projects',
   components: {
     Button,
+    CardProjects
   }
 }
 </script>
