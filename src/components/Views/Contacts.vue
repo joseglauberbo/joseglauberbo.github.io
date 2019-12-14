@@ -1,18 +1,21 @@
-<template>
-  <div class="home">
+<template class="containerPageSkills">
+  <div>
     <div class="button">
       <Button/>
     </div>
-    <Card/>
-  </div>   
+    <CardContacts/>
+    </div>
 </template>
 
-
 <style>
+
+.containerPageSkills {
+  
+}
   .button {
     transform: translate(30%, 50%);
   }
-  .home {
+  body {
   padding: 0;
   margin: 0;
   width: 100%;
@@ -22,13 +25,15 @@
 </style>
 
 <script>
-import Card from './Card.vue'
-import Button from './Button.vue'
+
+import Button from '../Button.vue'
+import CardContacts from '../Cards/CardContacts.vue'
+
 export default {
-  name: 'home',
+  name: 'contacts',
   components: {
     Button,
-    Card
+    CardContacts
   }
 }
 </script>

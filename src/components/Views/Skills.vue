@@ -1,5 +1,5 @@
-<template>
-  <div div class="home">
+<template class="container">
+  <div>
     <div class="button">
       <Button/>
     </div>
@@ -8,21 +8,19 @@
 </template>
 
 <style>
+  .container {
+    width: 60px;
+    height: 60px;
+  }
   .button {
     transform: translate(30%, 50%);
   }
-  .home {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: #1C1C1C;
-  }
-
 </style>
 
 <script>
-import Button from './Button.vue'
-import CardSkills from './CardSkills.vue'
+import Button from '../Button.vue'
+import CardSkills from '../Cards/CardSkills.vue'
+
 export default {
   name: 'skills',
   components: {

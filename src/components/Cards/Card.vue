@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div>
-     <img src="../assets/examples/glauber2.png" alt="Avatar" class="picture">
+     <img src="../../assets/examples/glauber2.png" alt="Avatar" class="picture">
     </div>
     <div class="text">
       <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">

@@ -1,31 +1,39 @@
-<template>
-  <div class="projects">
+<template class="container">
+  <div>
     <div class="button">
       <Button/>
     </div>
-  </div>
+    <Card/>
+  </div>   
 </template>
 
 
 <style>
+  .container {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  }
   .button {
     transform: translate(30%, 50%);
   }
-  .projects {
+  .home {
   padding: 0;
   margin: 0;
-  width: 100%;
-  min-height: 100vh;
   background-color: #1C1C1C;
   }
 </style>
 
 <script>
-import Button from './Button.vue'
+import Card from '../Cards/Card.vue'
+import Button from '../Button.vue'
+
 export default {
-  name: 'projects',
+  name: 'home',
   components: {
     Button,
+    Card
   }
 }
 </script>

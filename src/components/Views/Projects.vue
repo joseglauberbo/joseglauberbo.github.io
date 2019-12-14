@@ -1,18 +1,17 @@
 <template>
-  <div>
+  <div class="projects">
     <div class="button">
       <Button/>
     </div>
-    <CardContacts/>
-    </div>
+  </div>
 </template>
 
-<style>
 
+<style>
   .button {
     transform: translate(30%, 50%);
   }
-  body {
+  .projects {
   padding: 0;
   margin: 0;
   width: 100%;
@@ -22,15 +21,12 @@
 </style>
 
 <script>
-
-import Button from './Button.vue'
-import CardContacts from './CardContacts.vue'
+import Button from '../Button.vue'
 
 export default {
-  name: 'contacts',
+  name: 'projects',
   components: {
     Button,
-    CardContacts
   }
 }
 </script>

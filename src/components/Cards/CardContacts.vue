@@ -1,19 +1,19 @@
 <template>
     <div>
         <button onclick="window.location.href='https://www.linkedin.com/in/jos%C3%A9-glauber-braz-de-oliveira-8943b0152/'" class="cardContactLinkedin">
-            <img src="../assets/examples/linkedin.png" class="pictureContacts">
+            <img src="../../assets/examples/linkedin.png" class="pictureContacts">
         </button>
         <button onclick="window.location.href='https://github.com/joseglauberbo'" class="cardContactGithub">
-            <img src="../assets/examples/github-logo.png" class="pictureContacts">
+            <img src="../../assets/examples/github-logo.png" class="pictureContacts">
         </button>
         <div class="cardContactEmailandWhatsApp">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
           <div>
-            <img src="../assets/examples/email.png" class="pictureContactsEmail">
+            <img src="../../assets/examples/email.png" class="pictureContactsEmail">
             <p class="text1"> jose.oliveira@ccc.ufcg.edu.br </p>
           </div>
           <div>
-            <img src="../assets/examples/whatsapp.png" class="pictureContactsWhatsApp">
+            <img src="../../assets/examples/whatsapp.png" class="pictureContactsWhatsApp">
             <p class="text2"> +55 (83) 98718-6588 </p>
           </div>
         </div>

@@ -1,42 +1,42 @@
-<template>
+<template class="containerPage">
     <div class="container">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
         <div class="cardSkillsFrontend">
              <p class="textBackandFront">Frontend</p>
-             <img src="../assets/examples/frontend.png" alt="Avatar" class="pictureSkills">
-             <img src="../assets/examples/javascript.png" alt="Avatar" class="pictureSkillsJavaScript">
-             <img src="../assets/examples/vue.png" alt="Avatar" class="pictureSkillsVue">
-             <img src="../assets/examples/css.png" alt="Avatar" class="pictureSkillsCss">
-             <img src="../assets/examples/html.png" alt="Avatar" class="pictureSkillsHtml">
-             <img src="../assets/examples/react.png" alt="Avatar" class="pictureSkillsReact">
-             <img src="../assets/examples/ionic.png" alt="Avatar" class="pictureSkillsIonic">
-             <img src="../assets/examples/ruby.png" alt="Avatar" class="pictureSkillsRuby">
+             <img src="../../assets/examples/frontend.png" alt="Avatar" class="pictureSkills">
+             <img src="../../assets/examples/javascript.png" alt="Avatar" class="pictureSkillsJavaScript">
+             <img src="../../assets/examples/vue.png" alt="Avatar" class="pictureSkillsVue">
+             <img src="../../assets/examples/css.png" alt="Avatar" class="pictureSkillsCss">
+             <img src="../../assets/examples/html.png" alt="Avatar" class="pictureSkillsHtml">
+             <img src="../../assets/examples/react.png" alt="Avatar" class="pictureSkillsReact">
+             <img src="../../assets/examples/ionic.png" alt="Avatar" class="pictureSkillsIonic">
+             <img src="../../assets/examples/ruby.png" alt="Avatar" class="pictureSkillsRuby">
         </div>
         <div class="cardSkillsBackend">
             <p class="textBackandFront">Backend</p>
-            <img src="../assets/examples/backend.png" alt="Avatar" class="pictureSkills">
-            <img src="../assets/examples/python.png" alt="Avatar" class="pictureSkillsPython">
-            <img src="../assets/examples/java.png" alt="Avatar" class="pictureSkillsJava">
+            <img src="../../assets/examples/backend.png" alt="Avatar" class="pictureSkills">
+            <img src="../../assets/examples/python.png" alt="Avatar" class="pictureSkillsPython">
+            <img src="../../assets/examples/java.png" alt="Avatar" class="pictureSkillsJava">
         </div>
         <div class="cardSkillsDataScience">
             <p class="textDS">Data Science</p>
-            <img src="../assets/examples/datascience.png" alt="Avatar" class="pictureSkills">
-            <img src="../assets/examples/R.png" alt="Avatar" class="pictureSkillsR">
+            <img src="../../assets/examples/datascience.png" alt="Avatar" class="pictureSkills">
+            <img src="../../assets/examples/R.png" alt="Avatar" class="pictureSkillsR">
         </div>
         <div class="cardSkillsDB">
             <p class="textDB">Database</p>
-            <img src="../assets/examples/database.png" alt="Avatar" class="pictureSkills">
-            <img src="../assets/examples/mongo.png" alt="Avatar" class="pictureMongo">
-            <img src="../assets/examples/postgresql.png" alt="Avatar" class="picturePostgreSQL">
-            <img src="../assets/examples/oracle.png" alt="Avatar" class="pictureOracle">
+            <img src="../../assets/examples/database.png" alt="Avatar" class="pictureSkills">
+            <img src="../../assets/examples/mongo.png" alt="Avatar" class="pictureMongo">
+            <img src="../../assets/examples/postgresql.png" alt="Avatar" class="picturePostgreSQL">
+            <img src="../../assets/examples/oracle.png" alt="Avatar" class="pictureOracle">
         </div>
         <div class="cardSkillsIDE">
             <p class="textIDES">IDE's</p>
-            <img src="../assets/examples/ides.png" alt="Avatar" class="pictureSkills">
-            <img src="../assets/examples/Eclipse.png" alt="Avatar" class="pictureSkillsEclipse">
-            <img src="../assets/examples/vscode.png" alt="Avatar" class="pictureSkillsVSCode">
-            <img src="../assets/examples/rstudio.png" alt="Avatar" class="pictureSkillsRStudio">
-            <img src="../assets/examples/geany.png" alt="Avatar" class="pictureSkillsGeany">
+            <img src="../../assets/examples/ides.png" alt="Avatar" class="pictureSkills">
+            <img src="../../assets/examples/Eclipse.png" alt="Avatar" class="pictureSkillsEclipse">
+            <img src="../../assets/examples/vscode.png" alt="Avatar" class="pictureSkillsVSCode">
+            <img src="../../assets/examples/rstudio.png" alt="Avatar" class="pictureSkillsRStudio">
+            <img src="../../assets/examples/geany.png" alt="Avatar" class="pictureSkillsGeany">
         </div>
     </div>
 </template>
@@ -63,8 +63,12 @@
   transform: translate(10%, 0%);
 }
 .container {
-  transform: translate(-140%, -1%);
+  transform: translate(-240%, -100%);
   width: 100px;
+}
+.containerPage {
+  width: 60px;
+  height: 60px;
 }
 .pictureSkills {
   width: 190px;
