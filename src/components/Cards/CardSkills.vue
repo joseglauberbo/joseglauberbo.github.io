@@ -11,12 +11,14 @@
              <img src="../../assets/examples/react.png" alt="Avatar" class="pictureSkillsReact">
              <img src="../../assets/examples/ionic.png" alt="Avatar" class="pictureSkillsIonic">
              <img src="../../assets/examples/ruby.png" alt="Avatar" class="pictureSkillsRuby">
+             <img src="../../assets/examples/nodejs.png" alt="Avatar" class="pictureSkillsNodeJSFront">
         </div>
         <div class="cardSkillsBackend">
             <p class="textBackandFront">Backend</p>
             <img src="../../assets/examples/backend.png" alt="Avatar" class="pictureSkills">
             <img src="../../assets/examples/python.png" alt="Avatar" class="pictureSkillsPython">
             <img src="../../assets/examples/java.png" alt="Avatar" class="pictureSkillsJava">
+            <img src="../../assets/examples/nodejs.png" alt="Avatar" class="pictureSkillsNodeJSBack">
         </div>
         <div class="cardSkillsDataScience">
             <p class="textDS">Data Science</p>
@@ -75,7 +77,7 @@
   border-radius: 8px;
   transform: translate(5%, 0%);
 } 
-.pictureSkillsPython, .pictureSkillsJava, .pictureSkillsVue, .pictureSkillsCss, 
+.pictureSkillsPython, .pictureSkillsJava, .pictureSkillsCss, 
 .pictureSkillsHtml, .pictureSkillsReact, .pictureSkillsIonic, .pictureSkillsR,
 .pictureSkillsEclipse, .pictureSkillsVSCode, .pictureSkillsRStudio, .pictureSkillsGeany,
 .pictureMongo, .picturePostgreSQL, .pictureOracle, .pictureSkillsRuby {
@@ -93,7 +95,8 @@
   transform: translate(-30%, 40%);
 }
 .pictureSkillsVue {
-  transform: translate(-40%, 200%);
+  width: 30px;
+  transform: translate(-40%, 510%);
 }
 .pictureSkillsCss {
   transform: translate(-150%, 50%);
@@ -139,7 +142,14 @@
   width: 80px;
   transform: translate(170%, -240%);
 }
-
+.pictureSkillsNodeJSFront{
+  width: 60px;
+  transform: translate(10%, -20%);
+}
+.pictureSkillsNodeJSBack{
+  width: 60px;
+  transform: translate(100%, 30%);
+}
 .cardSkillsFrontend {
   padding: 20px 10px;
   width: 240px;
