@@ -16,4 +16,4 @@ npm run build
 echo Deploying.. 
 git add -A 
 git commit -m 'deploy' 
-git push -f https://github.com/joseglauberbo/my_portfolio master
+git push -f https://github.com/joseglauberbo/my_portfolio.git master
