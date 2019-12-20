@@ -1,28 +1,24 @@
-<template class="container">
-  <div>
+<template>
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="button">
       <Button/>
     </div>
-    <Card/>
-  </div>   
+    <Card/> 
+  </body>
 </template>
 
-
 <style>
-  .container {
-  width: inherit;
-  height: inherit;
+
+@media screen and (max-width: 2050px) {
+  body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   }
-  .button {
-    transform: translate(30%, 50%);
-  }
-  .home {
-  padding: 0;
-  margin: 0;
-  background-color: #1C1C1C;
-  }
+}
+
 </style>
 
 <script>
