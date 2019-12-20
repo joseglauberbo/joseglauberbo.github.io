@@ -17,6 +17,9 @@
   margin: 0;
   padding: 0;
   }
+  .button {
+    transform: translate(30%, 50%);
+  }
 }
 
 </style>
