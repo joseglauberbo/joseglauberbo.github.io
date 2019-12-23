@@ -32,7 +32,7 @@
   width: 850px;
   margin: 350px;
   box-shadow: 3px 2px #696969;
-  transform: translate(-20%,-65%);
+  transform: translate(-65%,-65%);
   border-radius: 8px;
   columns: 2;
   background-color: #1C1C1C;
@@ -48,5 +48,6 @@
   font-size: 28px;
   line-height: 1.2;
 }
+
 
 </style>

@@ -10,7 +10,6 @@
 
 <style>
 
-@media screen and (max-width:2050px) {
   .border {
     border-bottom-style: dotted;
     width: 37%;
@@ -25,7 +24,7 @@
     font-style: oblique;
     font-size: 20px;
   }
-}
+
 </style>
 
 <script>

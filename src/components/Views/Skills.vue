@@ -1,19 +1,17 @@
-<template class="container">
-  <div>
-    <div class="button">
+<template>
+  <body class="skills">
+    <div>
       <Button/>
+      <div>
+        <CardSkills/>
+      </div>
     </div>
-    <CardSkills/>
-  </div>
+  </body>
 </template>
 
 <style>
-  .container {
-    width: 60px;
-    height: 60px;
-  }
-  .button {
-    transform: translate(30%, 50%);
+  .skills {
+    transform: translate(30%, 1%);
   }
 </style>
 

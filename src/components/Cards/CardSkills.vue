@@ -65,12 +65,8 @@
   transform: translate(10%, 0%);
 }
 .container {
-  transform: translate(-240%, -100%);
+  transform: translate(-530%, -1%);
   width: 100px;
-}
-.containerPage {
-  width: 60px;
-  height: 60px;
 }
 .pictureSkills {
   width: 190px;
