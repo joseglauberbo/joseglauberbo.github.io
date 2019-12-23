@@ -16,7 +16,6 @@
     border-width: 2px 10px 4px 10px;
     border-color: #A4A4A4;
   }
-  
   .text-button {
     color: #FFD700;
     text-shadow: 2px 1px #696969;
