@@ -1,4 +1,4 @@
-<template class="containerPage">
+<template>
     <div class="container">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
         <div class="cardSkillsFrontend">

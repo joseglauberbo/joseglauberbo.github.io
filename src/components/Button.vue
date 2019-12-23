@@ -12,8 +12,8 @@
 
   .border {
     border-bottom-style: dotted;
-    width: 37%;
-    border-width: 2px 10px 4px 20px;
+    width: 460px;
+    border-width: 2px 10px 4px 10px;
     border-color: #A4A4A4;
   }
   

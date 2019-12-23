@@ -1,4 +1,4 @@
-<template class="containerProjects">
+<template >
     <div class="container2">
         <div>
             <button onclick="window.location.href='https://www.dsc.ufcg.edu.br/~pet/'" class="cardProjectPETComputacao">
@@ -40,12 +40,9 @@
 
 <style>
 
-  .containerProjects {
-    width: 60px;
-    max-height: 60px;
-  }
   .container2 {
     width: 20px;
+    transform: translate(-1600%, 0%);
   }
   .cardProjectPETComputacao {
   padding: 20px 10px;

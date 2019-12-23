@@ -1,20 +1,20 @@
-<template class="containerPageSkills">
-  <div>
-    <div class="button">
+<template>
+  <body class="contacts">
+    <div>
       <Button/>
-    </div>
-    <CardContacts/>
-    </div>
+        <div>
+          <CardContacts/>
+        </div>
+      </div>
+    </body>
 </template>
 
 <style>
 
-.containerPageSkills {
-  
-}
-  .button {
-    transform: translate(30%, 50%);
+  .contacts {
+    transform: translate(30%, 2%);
   }
+
   body {
   padding: 0;
   margin: 0;

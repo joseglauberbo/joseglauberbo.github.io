@@ -12,7 +12,7 @@
 <style>
 
   .home {
-    transform: translate(30%, 5%);
+    transform: translate(30%, 4%);
   }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="containerContacts">
         <button onclick="window.location.href='https://www.linkedin.com/in/jos%C3%A9-glauber-braz-de-oliveira-8943b0152/'" class="cardContactLinkedin">
             <img src="../../assets/examples/linkedin.png" class="pictureContacts">
         </button>
@@ -21,6 +21,10 @@
 </template>
 
 <style>
+.containerContacts {
+  width: 20px;
+  transform: translate(-1900%, 0%);
+}
 
 .cardContactLinkedin {
   padding: 20px 10px;
