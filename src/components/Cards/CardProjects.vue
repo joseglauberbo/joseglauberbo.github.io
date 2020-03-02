@@ -22,7 +22,7 @@
             </button>
         </div>
         <div>
-            <button onclick="window.location.href='https://github.com/joseglauberbo/machine_learning'" class="cardProjectMachineLearning">
+            <button onclick="window.location.href='https://drive.google.com/a/ccc.ufcg.edu.br/file/d/13zorW1OLPOylitS3mvyUKHnh8-R9DqTI/view?usp=drive_open'" class="cardProjectMachineLearning">
                  <img src="../../assets/examples/clusters.png" class="pictureProjects">
                  <p class="textPET"> 
                     This repository is about machine learning.
