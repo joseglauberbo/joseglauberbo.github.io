@@ -100,7 +100,6 @@
   line-height: 1.2;
 }
 
-
 </style>
 
 <script>

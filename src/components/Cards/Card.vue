@@ -3,20 +3,19 @@
     <div>
      <img src="../../assets/examples/glauber2.png" alt="Avatar" class="picture">
     </div>
-    <div class="text">
-      <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-      <p> Hi, my name is José Glauber. I'm twenty-two years old and i'm computer scientist
-                    graduated by Federal University of Campina Grande. There are a lot of things that
-                    i like to do, like read, sing, listen to music, meet people and code. I'm very
-                    curious about frontend development and design code. 
-      </p>
-    </div>
+    <InitialText class="myText"> </InitialText>
   </div>
 </template>
 
 <script>
+
+  import InitialText from '../InitialText'
+
   export default {
-    name: 'Card'
+    name: 'Card',
+    components: {
+      InitialText
+    }
   }
 </script>
 
@@ -37,16 +36,8 @@
   columns: 2;
   background-color: #1C1C1C;
 }
-.text {
-  text-align: justify;
-  text-indent: 50px;
-  color:  #FFD700;
+.myText {
   transform: translate(-15%,18%);
-  text-shadow: 2px 1px #696969;
-  font-family: 'Indie Flower', cursive;
-  font-style: oblique;
-  font-size: 28px;
-  line-height: 1.2;
 }
 
 
