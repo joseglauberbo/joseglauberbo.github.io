@@ -1,9 +1,7 @@
 <template>
   <div class="card">
-    <div>
-     <img src="../../assets/examples/glauber2.png" alt="Avatar" class="picture">
-    </div>
-    <InitialText class="myText"> </InitialText>
+    <img src="../../assets/examples/glauber2.png" alt="Avatar" class="picture">
+    <InitialText class="initialText"> </InitialText>
   </div>
 </template>
 
@@ -22,23 +20,25 @@
 <style>
 
 .picture {
-  width: 300px;
+  width: 280px;
   border-radius: 20px;
-  transform: translate(8%, 1%);
-} 
+  margin-left: 60px;
+}
+.initialText {
+  text-align: justify;
+  margin-right: 60px;
+}
 .card {
   padding: 20px 10px;
   width: 850px;
-  margin: 350px;
+  height: 450px;
   box-shadow: 3px 2px #696969;
-  transform: translate(-65%,-65%);
   border-radius: 8px;
   columns: 2;
   background-color: #1C1C1C;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.myText {
-  transform: translate(-15%,18%);
-}
-
 
 </style>

@@ -1,31 +1,31 @@
 <template>
-  <body class="home">
-    <div>
-      <Button/>
-      <div>
-        <Card/> 
-      </div>
-    </div>
-  </body>
+  <div>
+  <Button class="buttons"> </Button>
+   <Card/> 
+  </div>
 </template>
 
 <style>
-
-  .home {
-    transform: translate(30%, 4%);
-  }
-
+.buttons {
+   max-width:800px;
+   max-height:500px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+}
 </style>
 
 <script>
-import Card from '../Cards/Card.vue'
-import Button from '../Button.vue'
+
+import Card from '../Cards/Card'
+import Button from '../Button'
 
 export default {
   name: 'home',
   components: {
-    Button,
-    Card
+    Card,
+    Button
   }
 }
 </script>

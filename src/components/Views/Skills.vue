@@ -1,29 +1,30 @@
 <template>
-  <body class="skills">
     <div>
-      <Button/>
-      <div>
-        <CardSkills/>
-      </div>
+    <Button class="buttons"> </Button>
+      <CardSkills/>
     </div>
-  </body>
 </template>
 
 <style>
-  .skills {
-    transform: translate(30%, 1%);
+  .buttons {
+   max-width:800px;
+   max-height:500px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
   }
 </style>
 
 <script>
-import Button from '../Button.vue'
-import CardSkills from '../Cards/CardSkills.vue'
+import CardSkills from '../Cards/CardSkills'
+import Button from '../Button'
 
 export default {
   name: 'skills',
   components: {
-    Button,
-    CardSkills
+    CardSkills,
+    Button
   }
 }
 </script>

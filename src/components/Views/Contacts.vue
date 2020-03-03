@@ -1,20 +1,21 @@
 <template>
-  <body class="contacts">
+  <body>
     <div>
-      <Button/>
-        <div>
-          <CardContacts/>
-        </div>
+      <Button class="buttons"> </Button>
+      <CardContacts/>
       </div>
     </body>
 </template>
 
 <style>
-
-  .contacts {
-    transform: translate(30%, 2%);
+  .buttons {
+   max-width:800px;
+   max-height:500px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
   }
-
   body {
   padding: 0;
   margin: 0;
@@ -26,14 +27,14 @@
 
 <script>
 
-import Button from '../Button.vue'
-import CardContacts from '../Cards/CardContacts.vue'
+import CardContacts from '../Cards/CardContacts'
+import Button from '../Button'
 
 export default {
   name: 'contacts',
   components: {
-    Button,
-    CardContacts
+    CardContacts,
+    Button
   }
 }
 </script>

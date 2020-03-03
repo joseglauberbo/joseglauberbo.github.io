@@ -1,30 +1,32 @@
 <template>
-  <body class="projects">
-    <div>
-      <Button/>
-      <div>
-        <CardProjects/>
-      </div>
-    </div>
-    </body>
+  <div>
+    <Button class="buttons"> </Button>
+    <CardProjects/>
+  </div>
 </template>
 
-
 <style>
-  .projects{
-    transform: translate(30%, 1%);
-  }
+.buttons {
+   max-width:800px;
+   max-height:500px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+}
 </style>
 
+
 <script>
-import Button from '../Button.vue'
+
 import CardProjects from '../Cards/CardProjects.vue'
+import Button from '../Button'
 
 export default {
   name: 'projects',
   components: {
-    Button,
-    CardProjects
+    CardProjects, 
+    Button
   }
 }
 </script>

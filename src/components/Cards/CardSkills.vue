@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="containerSkills">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
         <div class="cardSkillsFrontend">
              <p class="textBackandFront">Frontend</p>
@@ -64,9 +64,12 @@
 .textIDES {
   transform: translate(10%, 0%);
 }
-.container {
-  transform: translate(-530%, -1%);
+.containerSkills {
+  margin-top: -70px;
+  margin-left: -150px;
+  margin-right: 0px;
   width: 100px;
+  height: 100px;
 }
 .pictureSkills {
   width: 190px;
