@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Button class="buttons"> </Button>
+   <Button class="buttons"> </Button>
    <Card/> 
   </div>
 </template>

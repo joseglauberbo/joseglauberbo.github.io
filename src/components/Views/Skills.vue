@@ -1,8 +1,8 @@
 <template>
-    <div>
+  <div>
     <Button class="buttons"> </Button>
-      <CardSkills/>
-    </div>
+    <CardSkills/>
+  </div>
 </template>
 
 <style>
