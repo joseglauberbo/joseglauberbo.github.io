@@ -3,7 +3,7 @@
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
         <div class="cardSkills">
           <p class="textSkills">Frontend</p>
-          <img src="../../assets/examples/frontend.png" alt="Avatar" class="pictureSkills">
+          <img src="../../assets/examples/frontend.png" alt="Avatar" class="pictureSkillsIcon">
           <img src="../../assets/examples/javascript.png" alt="Avatar" class="pictureSkills">
           <img src="../../assets/examples/vue.png" alt="Avatar" class="pictureSkills">
           <img src="../../assets/examples/css.png" alt="Avatar" class="pictureSkills">
@@ -15,26 +15,26 @@
         </div>
         <div class="cardSkills">
             <p class="textSkills">Backend</p>
-            <img src="../../assets/examples/backend.png" alt="Avatar" class="pictureSkills">
+            <img src="../../assets/examples/backend.png" alt="Avatar" class="pictureSkillsIcon">
             <img src="../../assets/examples/python.png" alt="Avatar" class="pictureSkills">
             <img src="../../assets/examples/java.png" alt="Avatar" class="pictureSkills">
             <img src="../../assets/examples/nodejs.png" alt="Avatar" class="pictureSkills">
         </div>
         <div class="cardSkills">
             <p class="textSkills">Data Science</p>
-            <img src="../../assets/examples/datascience.png" alt="Avatar" class="pictureSkills">
+            <img src="../../assets/examples/datascience.png" alt="Avatar" class="pictureSkillsIcon">
             <img src="../../assets/examples/R.png" alt="Avatar" class="pictureSkills">
         </div>
         <div class="cardSkills">
             <p class="textSkills">Database</p>
-            <img src="../../assets/examples/database.png" alt="Avatar" class="pictureSkills">
+            <img src="../../assets/examples/database.png" alt="Avatar" class="pictureSkillsIcon">
             <img src="../../assets/examples/mongo.png" alt="Avatar" class="pictureSkills">
             <img src="../../assets/examples/postgresql.png" alt="Avatar" class="pictureSkills">
             <img src="../../assets/examples/oracle.png" alt="Avatar" class="pictureSkills">
         </div>
         <div class="cardSkills">
             <p class="textSkills">IDE's</p>
-            <img src="../../assets/examples/ides.png" alt="Avatar" class="pictureSkills">
+            <img src="../../assets/examples/ides.png" alt="Avatar" class="pictureSkillsIcon">
             <img src="../../assets/examples/Eclipse.png" alt="Avatar" class="pictureSkills">
             <img src="../../assets/examples/vscode.png" alt="Avatar" class="pictureSkills">
             <img src="../../assets/examples/rstudio.png" alt="Avatar" class="pictureSkills">
@@ -76,12 +76,18 @@
   margin-left: auto;
   margin-right: auto;
 }
-.cardSkills img {
-  width: 65px;
+.pictureSkills {
+  width: 50px;
   margin-top: 10px;
   margin-left: 5px;
   margin-right: 5px;
 } 
+.pictureSkillsIcon {
+  width: 150px;
+  margin-top: -20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 </style>
 
 <script>

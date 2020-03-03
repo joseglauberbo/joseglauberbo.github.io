@@ -37,16 +37,18 @@
 <style>
 
   .containerProjects {
+    width: 1200px;
+    height: 600px;
+    border-radius: 8px;
     columns: 4;
-    height: 500px;
-    margin-top: 30px;
-    margin-left: 30px;
+    background-color: #1C1C1C;
+    margin-top: 40px;
+    margin-left: auto;
     margin-right: auto;
   }
   .cardProject {
     height: 420px;
-    width: 280px;
-    padding: 20px 10px;
+    width: 280;
     box-shadow: 3px 2px #696969;
     border-radius: 8px;
     background-color: #1C1C1C;
