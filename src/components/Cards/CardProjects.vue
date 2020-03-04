@@ -1,6 +1,6 @@
 <template >
     <div class="containerProjects">
-        <button onclick="window.location.href='https://www.dsc.ufcg.edu.br/~pet/'" class="cardProject">
+        <button onclick="window.location.href='http://www.computacao.ufcg.edu.br/petcomputacao'" class="cardProject">
             <img src="../../assets/examples/PETcomputacao.png" class="pictureProjects">
                 <p class="textCards"> 
                     I was part of the tutorial education program 
