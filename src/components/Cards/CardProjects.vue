@@ -1,5 +1,12 @@
 <template >
+  <div>
     <div class="containerProjects">
+        <button class="cardProject">
+            <img src="../../assets/examples/parTec.png" class="pictureProjects">
+                 <p class="textCards"> 
+                    Software Engineer at Technological Park Institution of Paraíba, working with planning, modeling, gerency and developing projects;
+                 </p> 
+        </button>
         <button onclick="window.location.href='http://www.computacao.ufcg.edu.br/petcomputacao'" class="cardProject">
             <img src="../../assets/examples/PETcomputacao.png" class="pictureProjects">
                 <p class="textCards"> 
@@ -17,7 +24,9 @@
                      my skills, projects and contact.
                 </p>
         </button>
-        <button onclick="window.location.href='https://drive.google.com/a/ccc.ufcg.edu.br/file/d/13zorW1OLPOylitS3mvyUKHnh8-R9DqTI/view?usp=drive_open'" class="cardProject">
+      </div>
+      <div class="containerProjects">
+      <button onclick="window.location.href='https://drive.google.com/a/ccc.ufcg.edu.br/file/d/13zorW1OLPOylitS3mvyUKHnh8-R9DqTI/view?usp=drive_open'" class="cardProject">
             <img src="../../assets/examples/clusters.png" class="pictureProjects">
                  <p class="textCards"> 
                     This repository is about machine learning.
@@ -31,16 +40,18 @@
                     This website has focus in show you better visualizations about some data that are open to public. There are informations about music, politic, etc.
                  </p> 
         </button>
-    </div> 
+      </div> 
+      </div>
 </template>
 
 <style>
 
   .containerProjects {
-    width: 1200px;
-    height: 600px;
+    width: 900px;
+    height: 430px;
     border-radius: 8px;
-    columns: 4;
+    align-items: 'center';
+    columns: 3;
     background-color: #1C1C1C;
     margin-top: 40px;
     margin-left: auto;
@@ -52,7 +63,7 @@
     box-shadow: 3px 2px #696969;
     border-radius: 8px;
     background-color: #1C1C1C;
-    margin-top: auto;
+
     margin-left: auto;
     margin-right: auto;
   }
