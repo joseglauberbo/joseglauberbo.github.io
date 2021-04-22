@@ -1,7 +1,7 @@
 <template>
   <div class="text">
       <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-      <p id="myclass"> Hi, my name is José Glauber. I'm twenty-two years old and i'm computer scientist
+      <p id="myclass"> Hi, my name is José Glauber. I'm twenty-three years old and i'm computer scientist
                     graduated by Federal University of Campina Grande. There are a lot of things that
                     i like to do, like read, sing, listen to music, meet people and code. I'm very
                     curious about frontend development and design code. 

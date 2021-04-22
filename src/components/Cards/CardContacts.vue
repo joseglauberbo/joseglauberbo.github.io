@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
             <img src="../../assets/examples/email.png" class="pictureContactsEmailandWhatsapp">
             <p class="text1"> jose.oliveira@ccc.ufcg.edu.br </p>
+            <p class="text1"> joseglauber@copin.ufcg.edu.br </p>
         </div>
         <div class="cardContact">
           <img src="../../assets/examples/whatsapp.png" class="pictureContactsEmailandWhatsapp">
@@ -57,7 +58,7 @@
   text-shadow: 2px 1px #696969;
   font-family: 'Indie Flower', cursive;
   font-style: oblique;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 0.5;
 }
 

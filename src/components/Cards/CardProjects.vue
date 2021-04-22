@@ -2,6 +2,12 @@
   <div>
     <div class="containerProjects">
         <button class="cardProject">
+            <img src="../../assets/examples/codehashi.jpeg" class="pictureProjects">
+                 <p class="textCards"> 
+                    Junior full stack developer of mobile and web applications;
+                 </p> 
+        </button>
+        <button class="cardProject">
             <img src="../../assets/examples/parTec.png" class="pictureProjects">
                  <p class="textCards"> 
                     Software Engineer at Technological Park Institution of Paraíba, working with planning, modeling, gerency and developing projects;
@@ -17,15 +23,15 @@
                     for undergraduate students and computational thinking activities with the population.
                 </p>
         </button>
-        <button onclick="window.location.href='https://github.com/joseglauberbo/my_portfolio'" class="cardProject">
+      </div>
+      <div class="containerProjects">
+      <button onclick="window.location.href='https://github.com/joseglauberbo/my_portfolio'" class="cardProject">
             <img src="../../assets/examples/portfolio.png" class="pictureProjects">
                 <p class="textCards"> 
                     This is my portfolio that contains informations about me,
                      my skills, projects and contact.
                 </p>
-        </button>
-      </div>
-      <div class="containerProjects">
+      </button>
       <button onclick="window.location.href='https://drive.google.com/a/ccc.ufcg.edu.br/file/d/13zorW1OLPOylitS3mvyUKHnh8-R9DqTI/view?usp=drive_open'" class="cardProject">
             <img src="../../assets/examples/clusters.png" class="pictureProjects">
                  <p class="textCards"> 
